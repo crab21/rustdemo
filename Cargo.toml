@@ -1,0 +1,27 @@
+[package]
+name = "demo-lib"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "0.2"
+md5 = "0.7.0"
+json = "0.12.4"
+serde_json = "1.0.59"
+serde = { version = "1.0", features = ["derive"] }
+
+hello-world-derive = { path = "hello-world-derive" }
+
+
+
+[[test]]
+name = "demo-workshop"
+path = "tests/it_works.rs"
+test = true
+
+[[test]]
+name = "demo-workshop_two"
+path = "tests/it_works_two.rs"
+test = true

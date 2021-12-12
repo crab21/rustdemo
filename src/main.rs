@@ -26,6 +26,7 @@ mod struct_ln;
 mod flow_control_ln;
 
 use flow_control_ln::for_range_learn;
+use flow_control_ln::if_let_learn;
 use flow_control_ln::loop_learn;
 
 // use std::fmt::Debug;
@@ -77,5 +78,7 @@ fn main() {
     loop_learn::test_loop();
     loop_learn::test_net_loop();
     loop_learn::test_return_loop();
+
+    if_let_learn::let_learn();
     for_range_learn::test_for_range();
 }

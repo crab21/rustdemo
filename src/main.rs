@@ -29,6 +29,8 @@ use flow_control_ln::for_range_learn;
 use flow_control_ln::if_let_learn;
 use flow_control_ln::loop_learn;
 
+mod library_ln;
+
 // use std::fmt::Debug;
 // use std::string::String;
 
@@ -81,4 +83,13 @@ fn main() {
 
     if_let_learn::let_learn();
     for_range_learn::test_for_range();
+    for_range_learn::test_for_vec();
+    for_range_learn::test_for_vec_mut();
+    for_range_learn::test_for_tuple_destructuring();
+    for_range_learn::test_for_guard();
+    for_range_learn::test_for_guard_single();
+    for_range_learn::test_for_guard_binding();
+    for_range_learn::test_for_guard_binding_single();
+
+    library_ln::start::start();
 }

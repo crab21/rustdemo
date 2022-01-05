@@ -31,8 +31,11 @@ use flow_control_ln::loop_learn;
 
 mod library_ln;
 
+mod box_ln;
 // use std::fmt::Debug;
 // use std::string::String;
+
+mod map_ln;
 
 trait HelloWorld {
     fn hello_world();
@@ -92,4 +95,8 @@ fn main() {
     for_range_learn::test_for_guard_binding_single();
 
     library_ln::start::start();
+
+    box_ln::box_learn::box_test();
+
+    map_ln::hashmap_test_entry();
 }

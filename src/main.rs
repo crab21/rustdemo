@@ -37,6 +37,14 @@ mod box_ln;
 
 mod map_ln;
 
+mod lifetime_ln;
+
+mod reference_ln;
+
+mod enum_ln;
+
+mod thread_ln;
+
 trait HelloWorld {
     fn hello_world();
 }
@@ -99,4 +107,11 @@ fn main() {
     box_ln::box_learn::box_test();
 
     map_ln::hashmap_test_entry();
+
+    lifetime_ln::start();
+    reference_ln::start_reference_learn();
+
+    enum_ln::start();
+
+    thread_ln::start();
 }

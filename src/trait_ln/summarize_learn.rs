@@ -1,14 +1,13 @@
 use super::trait_learn::Summary;
 
 pub struct NewArticles {
-    pub headLine: String,
+    pub head_line: String,
     pub content: String,
 }
 
-
 impl Summary for NewArticles {
     fn summarize(&self) -> String {
-        println!("{}", self.headLine);
+        println!("{}", self.head_line);
         String::from("ok")
     }
 }

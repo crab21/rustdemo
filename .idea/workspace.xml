@@ -8,12 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bbc4761-96f1-4534-8465-d47aae2b7af8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/box_ln/box_learn.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/box_ln/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map_ln/hashmap_learn.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map_ln/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fn_mut_ln/fn_mut_learn.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fn_mut_ln/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trait_ln/dyn_learn.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trait_ln/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trait_ln/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trait_ln/summarize_learn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trait_ln/summarize_learn.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go File" />
         <option value="Rust File" />
       </list>
     </option>
@@ -46,13 +48,16 @@
     <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.12.4/src/lib.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.12.4/src/value/mod.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/string.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.72/src/lib.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/iter/traits/collect.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/str/mod.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/macros.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main.rs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/fmt/mod.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.72/src/ser.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/iter/traits/iterator.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.72/src/lib.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/str/mod.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/GoLand2021.2/intellij-rust/stdlib/1.57.0-eaab4ad1e6b651863c14207fdacc25fb1000730a/vendor/hashbrown/src/map.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.72/src/ser.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/std/src/collections/hash/map.rs" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="5klxn6r2" />
@@ -72,6 +77,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="configurable..is.expanded" value="false" />
@@ -87,12 +93,72 @@
     <property name="org.rust.disableDetachedFileInspection/Users/gogoowang/learn/rustdemo/src/struct_ln/mod.rs" value="true" />
     <property name="org.rust.disableDetachedFileInspection/Users/gogoowang/learn/rustdemo/src/struct_ln/struct_learn.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/Users/gogoowang/learn/rustdemo/src/main.rs" value="true" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="com.github.copilot.settings.ApplicationConfigurable" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/library/core" />
     </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Test trait_ln::dyn_learn::test_dyn">
+    <configuration name="Test fn_mut_learn" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package demo-lib --bin demo-lib fn_mut_ln::fn_mut_learn" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test fn_mut_ln::fn_mut_learn::test_fn_mut" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package demo-lib --bin demo-lib fn_mut_ln::fn_mut_learn::test_fn_mut -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test trait_ln::dyn_learn::test_dyn" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package demo-lib --bin demo-lib trait_ln::dyn_learn::test_dyn -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test trait_ln::dyn_learn::test_dyn" />
+        <item itemvalue="Cargo.Test fn_mut_ln::fn_mut_learn::test_fn_mut" />
+        <item itemvalue="Cargo.Test fn_mut_learn" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="runRustfmtOnSave" value="true" />

@@ -45,6 +45,7 @@ mod enum_ln;
 
 mod thread_ln;
 
+mod fn_mut_ln;
 trait HelloWorld {
     fn hello_world();
 }

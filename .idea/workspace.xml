@@ -8,13 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bbc4761-96f1-4534-8465-d47aae2b7af8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fn_mut_ln/fn_mut_learn.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fn_mut_ln/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trait_ln/dyn_learn.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator_ln/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/option_ln/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/option_ln/option_learn.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flow_control_ln/for_range_learn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/flow_control_ln/for_range_learn.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trait_ln/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trait_ln/mod.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trait_ln/summarize_learn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trait_ln/summarize_learn.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +102,9 @@
       <recent name="$PROJECT_DIR$/src/library/core" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Test trait_ln::dyn_learn::test_dyn">
-    <configuration name="Test fn_mut_learn" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package demo-lib --bin demo-lib fn_mut_ln::fn_mut_learn" />
+  <component name="RunManager" selected="Cargo.Test flow_control_ln::for_range_learn::longest_test">
+    <configuration name="Test flow_control_ln::for_range_learn::longest_palindrome" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package demo-lib --bin demo-lib flow_control_ln::for_range_learn::longest_palindrome -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -120,8 +119,40 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test fn_mut_ln::fn_mut_learn::test_fn_mut" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package demo-lib --bin demo-lib fn_mut_ln::fn_mut_learn::test_fn_mut -- --exact" />
+    <configuration name="Test flow_control_ln::for_range_learn::longest_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package demo-lib --bin demo-lib flow_control_ln::for_range_learn::longest_test -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test flow_control_ln::for_range_learn::test_vec" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package demo-lib --bin demo-lib flow_control_ln::for_range_learn::test_vec -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test option_ln::optin_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package demo-lib --bin demo-lib option_ln::optin_test -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -154,9 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test flow_control_ln::for_range_learn::longest_test" />
+        <item itemvalue="Cargo.Test flow_control_ln::for_range_learn::longest_palindrome" />
+        <item itemvalue="Cargo.Test flow_control_ln::for_range_learn::test_vec" />
+        <item itemvalue="Cargo.Test option_ln::optin_test" />
         <item itemvalue="Cargo.Test trait_ln::dyn_learn::test_dyn" />
-        <item itemvalue="Cargo.Test fn_mut_ln::fn_mut_learn::test_fn_mut" />
-        <item itemvalue="Cargo.Test fn_mut_learn" />
       </list>
     </recent_temporary>
   </component>

@@ -46,6 +46,11 @@ mod enum_ln;
 mod thread_ln;
 
 mod fn_mut_ln;
+
+mod option_ln;
+
+mod iterator_ln;
+
 trait HelloWorld {
     fn hello_world();
 }

@@ -7,7 +7,6 @@ use std::string::String as good;
 // use json::JsonValue::String;
 
 use ccrate::crate_learn::front_of_house as learn;
-use match_ln::match_learn as mlearn;
 
 mod ccrate;
 
@@ -51,6 +50,7 @@ mod option_ln;
 
 mod iterator_ln;
 
+mod tuple_ln;
 trait HelloWorld {
     fn hello_world();
 }
@@ -64,12 +64,13 @@ struct Waffles;
 
 // mod macros_ln;
 fn main() {
+    tuple_ln::sort_tuple_ln(&mut vec![(1, 2), (3, 4), (5, 6)]);
+    match_ln::match_init_ln();
+
     learn::hosting::add_to_waitlist();
     hashmap_ln::map_learn::new();
 
     result_ln::result_learn::function_ok();
-    let a = mlearn::value_in_cents(mlearn::Coin::Good);
-    println!("{}", a);
 
     trait_ln::trait_learn::start_info();
 

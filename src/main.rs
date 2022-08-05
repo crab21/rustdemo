@@ -51,6 +51,10 @@ mod option_ln;
 mod iterator_ln;
 
 mod tuple_ln;
+
+mod mut_ln;
+
+mod impl_ln;
 trait HelloWorld {
     fn hello_world();
 }
@@ -121,4 +125,6 @@ fn main() {
     enum_ln::start();
 
     thread_ln::start();
+
+    mut_ln::start_mut()
 }

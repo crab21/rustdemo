@@ -21,6 +21,7 @@ pub fn use_user() {
     println!("{}", user1.email);
     fsss::bbbbb();
 
+
     println!("{}", user1.username);
 
     user1.email = String::from("another email");

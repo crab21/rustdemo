@@ -98,7 +98,6 @@ fn split_string() {
     //     println!("{}==========>",i);    
     // }
     let s = a.next();
-    s.
     for abs in s.iter(){
         println!("{}==========>",abs);    
     }

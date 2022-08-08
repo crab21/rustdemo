@@ -78,7 +78,7 @@ fn main() {
 
     trait_ln::trait_learn::start_info();
 
-    slice_ln::slice_learn::new_slice();
+    slice_ln::start();
 
     string_ln::string_learn::new();
     struct_ln::user::fsss::bbbbb();

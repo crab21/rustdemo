@@ -1,3 +1,4 @@
+use serde::de::Error;
 use std::borrow::Borrow;
 use List::{Cons, Nil};
 
@@ -52,4 +53,25 @@ fn box_copy() {
 #[test]
 fn test_box_copy() {
     box_copy();
+}
+pub fn result() -> (Result<i32, i32>) {
+    let k = 21;
+
+    let x: Result<&str, _> = Err("foo");
+    println!("{}", x.map_or_else(|e| 2, |v| 1));
+
+    let xx: Result<i32, i32> = Err(2);
+    match xx {
+        Ok(v) => println!("ok....{}", v),
+        Err(v) => println!("err.....{}", v),
+    }
+    let a = xx?;
+    Ok(a)
+}
+
+#[test]
+fn test_result() {
+    let s = result();
+    let b = s.map_or(8,|_|2);
+    println!("b...{}",b);
 }

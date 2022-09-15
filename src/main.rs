@@ -55,6 +55,8 @@ mod tuple_ln;
 mod mut_ln;
 
 mod impl_ln;
+
+mod io_ln;
 trait HelloWorld {
     fn hello_world();
 }

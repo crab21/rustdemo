@@ -1,3 +1,5 @@
+use core::fmt;
+
 #[test]
 fn test_fn_mut() {
     fn fn_immut<F>(f: F)
@@ -22,4 +24,5 @@ fn test_fn_mut_1() {
 
     let a = "Fn".to_string();
     fn_immut(|| a.clone()); // 闭包返回一个字符串
+    
 }

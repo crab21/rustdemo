@@ -1,5 +1,5 @@
 use serde::de::Error;
-use std::borrow::Borrow;
+use std::{borrow::Borrow, ops::Add};
 use List::{Cons, Nil};
 
 #[derive(Debug)]
@@ -21,6 +21,7 @@ pub fn box_i32() {
     // 下面一行代码将报错
     // let b = a + 1; // cannot add `{integer}` to `Box<{integer}>`
     // println!("{}",b)
+    
 }
 
 #[test]
@@ -75,3 +76,30 @@ fn test_result() {
     let b = s.map_or(8,|_|2);
     println!("b...{}",b);
 }
+
+
+#[test]
+// test_store_data us
+fn test_store_data() {
+    let data = Box::new(5);
+    println!("b = {:?}",data)
+}
+
+
+// Rc --------------------------------------
+
+use ListRc::{ConsRc,Nils};
+use std::rc::Rc;
+#[derive(Debug)]
+enum ListRc {
+    ConsRc(i32,Rc<ListRc>),
+    Nils,
+}
+#[test]
+fn test_cons(){
+    let a = Rc::new(ConsRc(5, Rc::new(ConsRc(2,Rc::new(Nils)))));
+    let b = ConsRc(6, Rc::clone(&a));
+    let c = ConsRc(7, Rc::clone(&a));
+    println!("{:?} {:?} {:?}",a,b,c)
+}
+// Rc ---------------------------------------

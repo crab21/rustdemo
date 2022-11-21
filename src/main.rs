@@ -57,6 +57,9 @@ mod mut_ln;
 mod impl_ln;
 
 mod io_ln;
+mod arc_ln;
+mod anonymous_ln;
+mod std_ln;
 trait HelloWorld {
     fn hello_world();
 }

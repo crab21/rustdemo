@@ -1,6 +1,6 @@
 #[test]
 fn t_ln() {
-    let number_list:Vec<i32> =Vec::new();
+    let number_list :Vec<i32> =Vec::new();
     if number_list.len()==0{
         return ;
     }
@@ -19,3 +19,5 @@ fn t_ln() {
 
     println!("{}", max);
 }
+
+

@@ -86,24 +86,42 @@ fn hello_world<'s>() -> &'s str {
     return "Hello World!";
 }
 
-
 struct ImportantExcerpt<'a> {
     part: &'a str,
 }
 
 fn split_string() {
     let novel = String::from("Call me Ishmael Some years ago");
-    let mut  a = novel.split('.');
+    let mut a = novel.split('.');
     // for i in a.next() {
-    //     println!("{}==========>",i);    
+    //     println!("{}==========>",i);
     // }
     let s = a.next();
-    for abs in s.iter(){
-        println!("{}==========>",abs);    
+    for abs in s.iter() {
+        println!("{}==========>", abs);
     }
 
     let first_sentence = novel.split('.').next().expect("Could not find a '.'");
     let i = ImportantExcerpt {
         part: first_sentence,
     };
+}
+
+// str vs string
+#[test]
+fn str_vs_string() {
+    let str_1 = "str";
+    let string_eg = String::from("string_test");
+
+    println!("{}", str_1);
+    println!("{}", string_eg);
+
+    let str_to_string = String::from(str_1);
+    let string_to_str = string_eg.as_str();
+    println!("{}{}", str_to_string, string_to_str);
+    println!("{:?}", print_type_of(&str_to_string))
+}
+
+fn print_type_of<T>(_: &T) {
+    println!("{}", std::any::type_name::<T>())
 }

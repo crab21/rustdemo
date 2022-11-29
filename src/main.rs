@@ -7,7 +7,6 @@ use std::string::String as good;
 // use json::JsonValue::String;
 
 use ccrate::crate_learn::front_of_house as learn;
-
 mod ccrate;
 
 mod hashmap_ln;
@@ -16,7 +15,7 @@ mod result_ln;
 
 mod trait_ln;
 
-mod string_ln;
+mod string_str_ln;
 
 mod slice_ln;
 
@@ -85,7 +84,7 @@ fn main() {
 
     slice_ln::start();
 
-    string_ln::string_learn::new();
+    string_str_ln::string_learn::new();
     struct_ln::user::fsss::bbbbb();
     struct_ln::user::use_user();
     // macros_ln::macros_learn::span();
@@ -118,7 +117,7 @@ fn main() {
     for_range_learn::test_for_guard_binding();
     for_range_learn::test_for_guard_binding_single();
 
-    library_ln::start::start();
+    library_ln::start::sstart();
 
     box_ln::box_learn::box_test();
 

@@ -1,5 +1,5 @@
 use serde::de::Error;
-use std::{borrow::Borrow, ops::Add};
+use std::{borrow::{Borrow, Cow}, ops::Add, string, sync::Arc};
 use List::{Cons, Nil};
 
 #[derive(Debug)]
@@ -21,7 +21,6 @@ pub fn box_i32() {
     // 下面一行代码将报错
     // let b = a + 1; // cannot add `{integer}` to `Box<{integer}>`
     // println!("{}",b)
-    
 }
 
 #[test]
@@ -47,9 +46,7 @@ fn box_copy() {
     println!("{:?}", arr1.len());
     // 由于 arr 不再拥有底层数组的所有权，因此下面代码将报错
     // println!("{:?}", arr.len());
-    
 }
-
 
 #[test]
 fn test_box_copy() {
@@ -59,8 +56,8 @@ pub fn result() -> (Result<i32, i32>) {
     let k = 21;
 
     let x: Result<&str, _> = Err("foo");
-    println!("{}", x.map_or_else(|e| 2, |v| 1));
-
+    println!("{}", x.map_or_else(|_e| 2, |v| 1));
+    println!("{}", x.map_or_else(|_e| 2, |v| 1));
     let xx: Result<i32, i32> = Err(2);
     match xx {
         Ok(v) => println!("ok....{}", v),
@@ -71,35 +68,67 @@ pub fn result() -> (Result<i32, i32>) {
 }
 
 #[test]
-fn test_result() {
-    let s = result();
-    let b = s.map_or(8,|_|2);
-    println!("b...{}",b);
+fn test_tresult() {
+    let x: Result<&str, i32> = Ok("gogo");
+    let b = x.ok();
+    let c = b.unwrap();
+    println!("{:?} aaaaaaaaaaaaaaaaa", c.to_lowercase());
+    println!("{:?}", get_result(0).unwrap());
 }
 
+fn get_result(i: i32) -> Result<Box<str>, String> {
+    if i > 0 {
+        return Err(String::from("err"));
+    }
+    // let gogo = "go";
+    // Ok(gogo.borrow())
+    let gogo = String::from("gogowang_");
+    Ok(gogo.into_boxed_str())
+}
+fn get_result_str(i: i32) -> Result<Cow<'static,str>, String> {
+    if i > 0 {
+        return Err(String::from("err"));
+    }
+    // let gogo = "go";
+    // Ok(gogo.borrow())
+    let gogo = String::from("gogowang_");
+    Ok(Cow::Owned(gogo))
+}
+
+#[test]
+fn test_result() {
+    let s = result();
+    let b = s.map_or(8, |_| 2);
+    println!("b...{}", b);
+
+
+    let bow = get_result_str(0);
+    let bow_wrap = bow.unwrap();
+    let result = bow_wrap.into_owned();
+    println!("{:?}",result)
+}
 
 #[test]
 // test_store_data us
 fn test_store_data() {
     let data = Box::new(5);
-    println!("b = {:?}",data)
+    println!("b = {:?}", data)
 }
-
 
 // Rc --------------------------------------
 
-use ListRc::{ConsRc,Nils};
 use std::rc::Rc;
+use ListRc::{ConsRc, Nils};
 #[derive(Debug)]
 enum ListRc {
-    ConsRc(i32,Rc<ListRc>),
+    ConsRc(i32, Rc<ListRc>),
     Nils,
 }
 #[test]
-fn test_cons(){
-    let a = Rc::new(ConsRc(5, Rc::new(ConsRc(2,Rc::new(Nils)))));
+fn test_cons() {
+    let a = Rc::new(ConsRc(5, Rc::new(ConsRc(2, Rc::new(Nils)))));
     let b = ConsRc(6, Rc::clone(&a));
     let c = ConsRc(7, Rc::clone(&a));
-    println!("{:?} {:?} {:?}",a,b,c)
+    println!("{:?} {:?} {:?}", a, b, c)
 }
 // Rc ---------------------------------------

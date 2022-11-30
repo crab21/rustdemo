@@ -26,17 +26,17 @@ where
 
 fn read_to_string_ln() {
     // let content = fs::read_to_string("/Users/gogoowang/learn/rustdemo/src/io_ln/mod.rs")
-        // .expect("Should have been able to read the file");
+    // .expect("Should have been able to read the file");
 
-        // println!("{}",content);
-        let cc  = fs::read_to_string("/Users/gogoowang/learn/rustdemo/src/io_ln/mod.ffrs");
-        match cc {
-            Ok(c)=>println!("{}",c),
-            Err(e)=>println!("err: {}",e),
-        };
+    // println!("{}",content);
+    let cc = fs::read_to_string("/Users/gogoowang/learn/rustdemo/src/io_ln/mod.ffrs");
+    match cc {
+        Ok(c) => println!("{}", c),
+        Err(e) => println!("err: {}", e),
+    };
 }
 
 #[test]
-fn read_to_string_ln_test(){
+fn read_to_string_ln_test() {
     read_to_string_ln()
 }

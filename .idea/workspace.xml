@@ -8,11 +8,279 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bbc4761-96f1-4534-8465-d47aae2b7af8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/trait_ln/dyn_insteadof_generic.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trait_ln/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trait_ln/mod.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trait_ln/trait_learn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trait_ln/trait_learn.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-0f107f7c083dcad0/dep-test-bin-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-0f107f7c083dcad0/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-0f107f7c083dcad0/test-bin-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-0f107f7c083dcad0/test-bin-hello-world-derive.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-36e3d00ffee12d91/bin-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-36e3d00ffee12d91/bin-hello-world-derive.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-36e3d00ffee12d91/dep-bin-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-36e3d00ffee12d91/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-47836a19a69c0930/dep-lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-47836a19a69c0930/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-47836a19a69c0930/lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-47836a19a69c0930/lib-hello-world-derive.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-47836a19a69c0930/output-lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b2c6b179a8c3f837/dep-lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b2c6b179a8c3f837/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b2c6b179a8c3f837/lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b2c6b179a8c3f837/lib-hello-world-derive.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b2c6b179a8c3f837/output-lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b3b6da229be15e26/dep-lib-hello-world-derive" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b3b6da229be15e26/dep-lib-hello-world-derive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b3b6da229be15e26/output-lib-hello-world-derive" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-b3b6da229be15e26/output-lib-hello-world-derive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-c0f3d3c64f13d658/dep-test-lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-c0f3d3c64f13d658/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-c0f3d3c64f13d658/output-test-lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-c0f3d3c64f13d658/test-lib-hello-world-derive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-c0f3d3c64f13d658/test-lib-hello-world-derive.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-dd8c5c7b9502016e/dep-test-lib-hello-world-derive" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-dd8c5c7b9502016e/dep-test-lib-hello-world-derive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-dd8c5c7b9502016e/output-test-lib-hello-world-derive" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-dd8c5c7b9502016e/output-test-lib-hello-world-derive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-efff5e735ae1c030/dep-lib-hello-world-derive" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-efff5e735ae1c030/dep-lib-hello-world-derive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-efff5e735ae1c030/output-lib-hello-world-derive" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/hello-world-derive-efff5e735ae1c030/output-lib-hello-world-derive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/quote-52c3f8280a3c7170/dep-lib-quote" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/quote-52c3f8280a3c7170/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/quote-52c3f8280a3c7170/lib-quote" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/quote-52c3f8280a3c7170/lib-quote.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/quote-a9e5a07ef84f5504/dep-lib-quote" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/quote-a9e5a07ef84f5504/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/quote-a9e5a07ef84f5504/lib-quote" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/quote-a9e5a07ef84f5504/lib-quote.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/syn-410c696d0d1343f2/dep-lib-syn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/syn-410c696d0d1343f2/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/syn-410c696d0d1343f2/lib-syn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/syn-410c696d0d1343f2/lib-syn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/syn-f7e13b28d2c89392/dep-lib-syn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/syn-f7e13b28d2c89392/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/syn-f7e13b28d2c89392/lib-syn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/syn-f7e13b28d2c89392/lib-syn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/unicode-xid-9a5b9705b92f171a/dep-lib-unicode-xid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/unicode-xid-9a5b9705b92f171a/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/unicode-xid-9a5b9705b92f171a/lib-unicode-xid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/unicode-xid-9a5b9705b92f171a/lib-unicode-xid.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/unicode-xid-ee44774067684978/dep-lib-unicode-xid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/unicode-xid-ee44774067684978/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/unicode-xid-ee44774067684978/lib-unicode-xid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/.fingerprint/unicode-xid-ee44774067684978/lib-unicode-xid.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-0f107f7c083dcad0.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-36e3d00ffee12d91.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-47836a19a69c0930.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.10zto8jjlt7usksl.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.11s63kwbwz5cr24q.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.13w2fajk6tmden5e.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.18c5rqf7brhzdnvs.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1b4yf1huvwi4tevi.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1gs3iqdx1npkxk4r.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1ht81mtr1mylq4e0.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1ivz9ythebj10znm.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1kre8fngtfunznkj.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1kuh8okleauswads.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1pnng27uxalm9f7i.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1q7ta3opazp4sk3s.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.1sq23j6nhehj923d.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.20jht8ley6xfbxci.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.287sjo8egxtqpy01.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.2gz9uusgxliw8nir.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.2i6xqnchpekgvx2z.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.2k7epu1gmwqve8ih.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.2rdhx96mfw35p6mb.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.2xjnjrf7kj2gmctg.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.35b8ljrndkqjpvzq.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.3b3uso07er7l7hbz.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.3c71g0vqn4i0ob0j.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.3f1iqg68d7xhv4ip.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.3j8emekk5rjlpleu.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.3kwk7pbnpuyu5b28.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.3t9n9hmsrqiry9z9.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.40q6la5ognyz7fo.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.42zv17eimia0rppo.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.43aatju571cdl4q1.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.43n3yplmtz976tqo.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.4lyxgpylc69zuatq.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.4mjcl1rdf6lmp2rb.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.4u37eixwgz2tlfdk.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.4vy2fr5fjtsx3dac.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.560i5aup7liwcvd6.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.57qgrrp3p23tfwmy.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.5cokyhy4vbr93tr9.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.5gov6wdoz1a4wvk3.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.6cac1gushbze69c.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.7a3a5p84mtkz49c.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.eds7xc7kihge0en.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.fn173mtcifvtryq.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.jhni81dy0vzmgju.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.llsh9b7uddf02n8.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.oe7dj3szulm3iwv.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b2c6b179a8c3f837.vprjyw4mze0h7zo.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b3b6da229be15e26.d" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-b3b6da229be15e26.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-c0f3d3c64f13d658.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-dd8c5c7b9502016e.d" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-dd8c5c7b9502016e.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.1uio1w3qdksj9lpi.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.1uio1w3qdksj9lpi.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.2hhqdrm8f3847ys1.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.2hhqdrm8f3847ys1.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.36nmc14ut36qca8t.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.36nmc14ut36qca8t.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.3nozztvehvr5kd2o.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.3nozztvehvr5kd2o.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.4667qorf1njo7cv5.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.4667qorf1njo7cv5.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.4qw3m09kjn0637b9.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.4qw3m09kjn0637b9.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.4u49t0milhkxk6py.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.4u49t0milhkxk6py.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.96hqw3i3iekhn33.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.96hqw3i3iekhn33.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.d" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.dpsjg469mpy97x.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.dpsjg469mpy97x.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.utx3a5411p3nmhw.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/hello_world_derive-efff5e735ae1c030.utx3a5411p3nmhw.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-0f107f7c083dcad0.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-36e3d00ffee12d91.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-47836a19a69c0930.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-b2c6b179a8c3f837.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-b3b6da229be15e26.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-b3b6da229be15e26.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-c0f3d3c64f13d658.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-efff5e735ae1c030.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libhello_world_derive-efff5e735ae1c030.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libquote-52c3f8280a3c7170.rlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libquote-52c3f8280a3c7170.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libquote-a9e5a07ef84f5504.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libsyn-410c696d0d1343f2.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libsyn-f7e13b28d2c89392.rlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libsyn-f7e13b28d2c89392.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libunicode_xid-9a5b9705b92f171a.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libunicode_xid-ee44774067684978.rlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/libunicode_xid-ee44774067684978.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/quote-52c3f8280a3c7170.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/quote-a9e5a07ef84f5504.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/syn-410c696d0d1343f2.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/syn-f7e13b28d2c89392.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/unicode_xid-9a5b9705b92f171a.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/deps/unicode_xid-ee44774067684978.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-1sxm79t6x8wvo/s-g72zfk6s08-1qub9z9-13tbkmp2rx6im/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-1sxm79t6x8wvo/s-g72zfk6s08-1qub9z9-13tbkmp2rx6im/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-1sxm79t6x8wvo/s-g72zfk6s08-1qub9z9-13tbkmp2rx6im/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-1sxm79t6x8wvo/s-g72zfk6s08-1qub9z9.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-2a4rmf29zxxkq/s-gfmmez1qxq-glg052-ss03o20qjv87/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-2a4rmf29zxxkq/s-gfmmez1qxq-glg052-ss03o20qjv87/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-2a4rmf29zxxkq/s-gfmmez1qxq-glg052-ss03o20qjv87/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-2a4rmf29zxxkq/s-gfmmez1qxq-glg052.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-39owzokt6vl4h/s-g72zfjj2ln-1oqh8wu-28jsoow14ffk1/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-39owzokt6vl4h/s-g72zfjj2ln-1oqh8wu-28jsoow14ffk1/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-39owzokt6vl4h/s-g72zfjj2ln-1oqh8wu-28jsoow14ffk1/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-39owzokt6vl4h/s-g72zfjj2ln-1oqh8wu.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/10zto8jjlt7usksl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/11s63kwbwz5cr24q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/13w2fajk6tmden5e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/18c5rqf7brhzdnvs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1b4yf1huvwi4tevi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1gs3iqdx1npkxk4r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1ht81mtr1mylq4e0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1ivz9ythebj10znm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1kre8fngtfunznkj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1kuh8okleauswads.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1pnng27uxalm9f7i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1q7ta3opazp4sk3s.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/1sq23j6nhehj923d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/20jht8ley6xfbxci.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/287sjo8egxtqpy01.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/2gz9uusgxliw8nir.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/2i6xqnchpekgvx2z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/2k7epu1gmwqve8ih.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/2rdhx96mfw35p6mb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/2xjnjrf7kj2gmctg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/35b8ljrndkqjpvzq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/3b3uso07er7l7hbz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/3c71g0vqn4i0ob0j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/3f1iqg68d7xhv4ip.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/3j8emekk5rjlpleu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/3kwk7pbnpuyu5b28.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/3t9n9hmsrqiry9z9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/40q6la5ognyz7fo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/42zv17eimia0rppo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/43aatju571cdl4q1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/43n3yplmtz976tqo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/4lyxgpylc69zuatq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/4mjcl1rdf6lmp2rb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/4u37eixwgz2tlfdk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/4vy2fr5fjtsx3dac.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/560i5aup7liwcvd6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/57qgrrp3p23tfwmy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/5cokyhy4vbr93tr9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/5gov6wdoz1a4wvk3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/6cac1gushbze69c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/7a3a5p84mtkz49c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/eds7xc7kihge0en.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/fn173mtcifvtryq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/jhni81dy0vzmgju.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/llsh9b7uddf02n8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/oe7dj3szulm3iwv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/vprjyw4mze0h7zo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5-1fg1q3pkb9ox6/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3f2s96tyc6tk6/s-g72zfjx186-w4bsg5.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3mkkv89eaww4e/s-g72zfjivne-10eeoq-8eiiyh22w0s5/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3mkkv89eaww4e/s-g72zfjivne-10eeoq-8eiiyh22w0s5/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3mkkv89eaww4e/s-g72zfjivne-10eeoq-8eiiyh22w0s5/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3mkkv89eaww4e/s-g72zfjivne-10eeoq.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3s87iba4ia120/s-g72zfk6tp2-1opfphz-wl3qpqhy8wjl/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3s87iba4ia120/s-g72zfk6tp2-1opfphz-wl3qpqhy8wjl/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3s87iba4ia120/s-g72zfk6tp2-1opfphz-wl3qpqhy8wjl/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3s87iba4ia120/s-g72zfk6tp2-1opfphz.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3vthy0ufdwnd6/s-gfmmezjjpg-ft5nuw-kkuwhelrj6a9/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3vthy0ufdwnd6/s-gfmmezjjpg-ft5nuw-kkuwhelrj6a9/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3vthy0ufdwnd6/s-gfmmezjjpg-ft5nuw-kkuwhelrj6a9/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-3vthy0ufdwnd6/s-gfmmezjjpg-ft5nuw.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-k3u532mwjxc6/s-gfmmez1rpf-85kusb-3os92xquru3p1/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-k3u532mwjxc6/s-gfmmez1rpf-85kusb-3os92xquru3p1/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-k3u532mwjxc6/s-gfmmez1rpf-85kusb-3os92xquru3p1/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-k3u532mwjxc6/s-gfmmez1rpf-85kusb.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/1btafc8l7ykor1qa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/1luedqeo0xw1j30z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/1tf6edvfwb3mbtvo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/1uio1w3qdksj9lpi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/1ykqz5igh011i5e5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/1z8kpme4lhqr6eq1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/20x0fdr51j7hc0w8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/22xt6chnznrv1yjk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/23pznrrefe8vifdn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/25k33ruphkfichzn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/26tzucc96fx75m5z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/28nk7oh34m020gd5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/2hhqdrm8f3847ys1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/2nncbgcx34dob2k4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/36nmc14ut36qca8t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/36sybjmo534nfvrz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/3nozztvehvr5kd2o.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/3vqueikt0fumrh7u.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/4667qorf1njo7cv5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/4flilh0ejhmjl0po.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/4loixsp89k700ypl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/4qdstynqhq89bb6h.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/4qw3m09kjn0637b9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/4t2cve6pd2l5szom.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/4u49t0milhkxk6py.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/50t9f6ehcbloqlkt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/56ohcb531e84zgos.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/5apy2rwj8dq9cqul.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/5cd5bofk2n6xe7ex.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/5ynan3vd7np5lin.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/96hqw3i3iekhn33.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/dpsjg469mpy97x.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/iyjyhe47x50nvsf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/utx3a5411p3nmhw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/v14r11hcjxnfdst.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0-12521qfdeyya6/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-mufjafrhk7hk/s-gfmmezc8ci-18zc5u0.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-w5ptpv8mdb2/s-gfmmezjjs1-ljnpn4-4ze2vv1b2s1b/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-w5ptpv8mdb2/s-gfmmezjjs1-ljnpn4-4ze2vv1b2s1b/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-w5ptpv8mdb2/s-gfmmezjjs1-ljnpn4-4ze2vv1b2s1b/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-derive/target/debug/incremental/hello_world_derive-w5ptpv8mdb2/s-gfmmezjjs1-ljnpn4.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/derive_ln/derive_learn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/derive_ln/derive_learn.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fn_mut_ln/fn_mut_learn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/fn_mut_ln/fn_mut_learn.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reference_ln/reference_learn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/reference_ln/reference_learn.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slice_ln/slice_learn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/slice_ln/slice_learn.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/system/goroot/go1.17" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -43,19 +311,19 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/macros.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.12.4/src/lib.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/GoLand2021.2/intellij-rust/stdlib/1.57.0-eaab4ad1e6b651863c14207fdacc25fb1000730a/vendor/hashbrown/src/map.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/str/mod.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/iter/traits/iterator.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.12.4/src/value/mod.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/iter/traits/collect.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/string.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/std/src/collections/hash/map.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main.rs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.72/src/lib.rs" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/fmt/mod.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.72/src/ser.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/macros.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/string.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/fmt/mod.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/iter/traits/collect.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/iter/traits/iterator.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/core/src/str/mod.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/std/src/collections/hash/map.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/library/std/src/macros.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main.rs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="5klxn6r2" />
@@ -74,29 +342,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="configurable..is.expanded" value="false" />
-    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
-    <property name="go.format.on.save.advertiser.fired" value="true" />
-    <property name="go.formatter.settings.were.checked" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="org.rust.disableDetachedFileInspection/Users/gogoowang/learn/rustdemo/src/struct_ln/mod.rs" value="true" />
-    <property name="org.rust.disableDetachedFileInspection/Users/gogoowang/learn/rustdemo/src/struct_ln/struct_learn.rs" value="true" />
-    <property name="org.rust.hideNoCargoProjectNotifications/Users/gogoowang/learn/rustdemo/src/main.rs" value="true" />
-    <property name="settings.editor.selected.configurable" value="language.rust.cargo.check" />
-  </component>
-  <component name="ReaderModeSettings">
-    <option name="showLigatures" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gogoowang/learn/rustdemo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/library/core" />
@@ -106,11 +367,12 @@
     <configuration name="Test flow_control_ln::for_range_learn::longest_palindrome" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package demo-lib --bin demo-lib flow_control_ln::for_range_learn::longest_palindrome -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
       <envs />
       <option name="isRedirectInput" value="false" />
@@ -122,11 +384,12 @@
     <configuration name="Test flow_control_ln::for_range_learn::longest_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package demo-lib --bin demo-lib flow_control_ln::for_range_learn::longest_test -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
       <envs />
       <option name="isRedirectInput" value="false" />
@@ -138,11 +401,12 @@
     <configuration name="Test flow_control_ln::for_range_learn::test_vec" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package demo-lib --bin demo-lib flow_control_ln::for_range_learn::test_vec -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
       <envs />
       <option name="isRedirectInput" value="false" />
@@ -154,11 +418,12 @@
     <configuration name="Test option_ln::optin_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package demo-lib --bin demo-lib option_ln::optin_test -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
       <envs />
       <option name="isRedirectInput" value="false" />
@@ -170,11 +435,12 @@
     <configuration name="Test trait_ln::dyn_learn::test_dyn" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package demo-lib --bin demo-lib trait_ln::dyn_learn::test_dyn -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
       <envs />
       <option name="isRedirectInput" value="false" />
@@ -194,16 +460,19 @@
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
-    <option name="runRustfmtOnSave" value="true" />
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="useRustfmt" value="true" />
+    <option name="useOffline" value="true" />
     <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

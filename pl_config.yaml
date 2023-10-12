@@ -1,0 +1,172 @@
+# General info
+"*.*.*.*.applicationName": "{{/secret/hybridcloud_account.application_name}}"
+"*.*.*.*.applicationVersion": "{{/secret/hybridcloud_account.application_version}}"
+"*.*.*.*.pdfServerVersion": "{{/secret/hybridcloud_account.pdf_server_version}}"
+
+# Use zap logger config to configure log manually
+"*.*.*.*.appLoggerConfigPath": "configs/app_logger_config.yaml"
+"*.*.*.*.queryLoggerConfigPath": "configs/query_logger_config.yaml"
+
+# Override bellow configs by uncommenting
+# gRPC related
+"*.*.*.*.gRPCPort": "1949"
+
+# Resutful API related
+"*.*.*.*.restfulAPIEnabled": true
+"*.*.*.*.restfulAPIPort": "9000"
+
+# qcloud api based gRPC related
+# "*.*.*.*.qcloudAPIEnabled": true
+"*.*.*.*.qcloudAPIPort": "8000"
+
+# qcloud api parameter key format auto-transform
+"*.*.*.*.autoTransEnabled": "false"
+
+# Prometheus client related
+# "*.*.*.*.promEnabled": true
+# "*.*.*.*.promPort": "1608"
+# "*.*.*.*.promPath": "/metrics"
+
+# Swagger related
+#"*.*.*.*.swaggerEnabled": false
+#"*.*.*.*.swaggerWebPort": "8080"
+#"*.*.*.*.swaggerWebPath": "/sw"
+# "*.*.*.*.swaggerJSONPath": "api"
+
+# Consul related
+# "*.*.*.*.consulEnabled": true
+#"*.*.*.*.consulAddress": "pl-consul-consul-client.pl-consul.svc.cluster.local:8500"
+#"*.*.*.*.serviceTags": "hybridcloud,dev"
+
+# health check type support GPRC, TCP, HTTP, TTL
+# "*.*.*.*.healthCheckEnabled": true
+"*.*.*.*.healthCheckType": "GRPC"
+"*.*.*.*.healthCheckTarget": "localhost:1949"
+
+# jaeger tracing
+# if app run in docker, a daemonset or sidecar jaeger agent should be available
+# localhost:6831 for sidecar agent; domain like jaeger-agent.svc.cluster.local should be set if a service has been create over daemonset
+"*.*.*.*.tracerConfig":
+  enable: false
+  jaegerAddress: "pl-jaeger-agent.pl-jaeger.svc.cluster.local:6831"
+  jaegerAgentStrategy: "agent"
+
+# common service white list, it could be IP or CIDR
+# "*.*.*.*.commonServiceWhiteList": "localhost 127.0.0.1"
+
+# start service dependency config
+#"*.*.*.*.serviceDependency":
+#  -
+#    target: "localhost:1949"
+#    packageName: "tsign-hybridcloud"
+#    serviceName: "HelloWorldService"
+#    consulEnable: false
+
+# Enable profiling including cpu, memory, block, mutex, goroutine, thread, allocs, trace.
+# If profiling enabled, profile result file will be lay in the directory profile.
+# It should be disable on prod env.
+"*.dev.*.*.enableProfile": false
+"*.beta.*.*.enableProfile": false
+"*.prod.*.*.enableProfile": false
+"*.*.*.*.enableProfile": false
+
+"*.*.*.*.FileDownloadPath": "file"
+"*.*.*.*.FileUploadPath": "upload"
+"*.*.*.*.qcloudApiHeaderToMetadataEnabled": true
+
+"*.*.*.*.serviceDependency":
+  - target: "{{/secret/signature_basic_pdf_rpc.target}}"
+    packageName: "{{/secret/signature_basic_pdf_rpc.packageName}}"
+    serviceName: "{{/secret/signature_basic_pdf_rpc.serviceName}}"
+    consulEnable: false
+  - target: "{{/secret/signature_fileconvert_service_rpc.target}}"
+    packageName: "{{/secret/signature_fileconvert_service_rpc.packageName}}"
+    serviceName: "{{/secret/signature_fileconvert_service_rpc.serviceName}}"
+    consulEnable: false
+
+# MysqlConnect
+MysqlConnect:
+  default: "{{/secret/signature_mysql.signature}}"
+  tsign_hybridclouds: "{{/secret/signature_mysql.tsign_hybridclouds}}"
+  tsign_fileconverts: "{{/secret/signature_mysql.tsign_hybridclouds}}"
+
+StorageType: "{{/secret/signature_file_service.storage_type}}"
+StreamSize: "{{/secret/signature_file_service.stream_size}}"
+
+# 缩略图片最大占用的控件大小，单位: GB
+ThumbnailCacheMaxSize: 100
+# ================================  2023/2/16 =====================
+storage_type: "{{/secret/cos3.storage_type}}"
+localfs:
+  path: "{{/secret/cos3.localfs_path}}" 
+cos3:
+  #  only for cos,appID is useful.
+  app_id: "{{/secret/cos3.app_id}}" 
+  token: "{{/secret/cos3.token}}" 
+  accesskey: "{{/secret/cos3.ak}}"
+  secretkey: "{{/secret/cos3.sk}}"
+  host: "{{/secret/cos3.host}}"
+  port: {{/secret/cos3.port}}
+  region: "{{/secret/cos3.region}}"
+  disable_ssl: {{/secret/hybridcloud_auth.disable_auth}}
+  buckets: 
+    - name: "CosBucket-4"
+      value: "{{/secret/cos3.bucket_template}}"
+    - name: "CosBucket-5"
+      value: "{{/secret/cos3.bucket_document}}"
+# ================================  2023/2/16 =====================
+
+
+#################
+# cos使用公有云
+#################
+CosAppId: "{{/secret/signature_cos.cos_appid}}"
+CosAccessKey: "{{/secret/signature_cos.cos_ak}}"
+CosSecretKey: "{{/secret/signature_cos.cos_sk}}"
+CosRegion: "{{/secret/signature_cos.cos_region}}"
+CosBucket: "{{/secret/signature_cos_hybridcloud.bucket}}"
+CosBucket-1: "{{/secret/signature_cos_hybridcloud.bucket_user}}"
+CosBucket-2: "{{/secret/signature_cos_hybridcloud.bucket_business_license}}"
+CosBucket-3: "{{/secret/signature_cos_hybridcloud.bucket_seal}}"
+CosBucket-4: "{{/secret/signature_cos_hybridcloud.bucket_template}}"
+CosBucket-5: "{{/secret/signature_cos_hybridcloud.bucket_document}}"
+CosBucket-6: "{{/secret/signature_cos_hybridcloud.bucket_evidence}}"
+
+LocalFSPath: "{{/secret/signature_cos.local_fs_path}}"
+#################
+# aws账号信息
+#################
+AwsToken: "{{/secret/signature_aws.token}}"
+AwsAccessKey: "{{/secret/signature_aws.ak}}"
+AwsSecretKey: "{{/secret/signature_aws.sk}}"
+AwsRegion: "{{/secret/signature_aws.region}}"
+AwsEndpoint: "{{/secret/signature_aws.endpoint}}"
+AwsBucket: "{{/secret/signature_aws.bucket}}"
+AwsBucket-4: "{{/secret/signature_aws.bucket_template}}"
+AwsBucket-5: "{{/secret/signature_aws.bucket_document}}"
+DisableSsl: "{{/secret/signature_aws.disable_ssl}}"
+
+##################
+# 本地鉴权配置
+##################
+AuthHost: "{{/secret/hybridcloud_auth.host}}"
+AuthSecretId: "{{/secret/hybridcloud_auth.secret_id}}"
+AuthSecretKey: "{{/secret/hybridcloud_auth.secret_key}}"
+SendWarning: "{{/secret/hybridcloud_auth.send_warning}}"
+DisableAuth: "{{/secret/hybridcloud_auth.disable_auth}}"
+
+##################
+# 云API3配置
+##################
+CloudConfigHost: "{{/secret/hybridcloud_account.host}}"
+CloudConfigSecretId: "{{/secret/hybridcloud_account.ak}}"
+CloudConfigSecretKey: "{{/secret/hybridcloud_account.sk}}"
+CloudConfigRegion: "{{/secret/hybridcloud_account.region}}"
+CloudConfigService: "{{/secret/hybridcloud_account.service}}"
+CloudConfigVersion: "{{/secret/hybridcloud_account.version}}"
+CloudConfigToken: "{{/secret/hybridcloud_account.token}}"
+CloudConfigProtocol: "{{/secret/hybridcloud_account.protocol}}"
+CloudConfigApplicationId: "{{/secret/hybridcloud_account.application_id}}"
+CloudConfigOrganizationId: "{{/secret/hybridcloud_account.organization_id}}"
+CloudConfigOrganizationName: "{{/secret/hybridcloud_account.organization_name}}"
+CloudConfigUserId: "{{/secret/hybridcloud_account.user_id}}"

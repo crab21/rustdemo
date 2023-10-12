@@ -1,7 +1,6 @@
 #[macro_use]
 extern crate hello_world_derive;
 
-use std::str::Chars;
 use std::string::String as good;
 
 // use json::JsonValue::String;
@@ -9,10 +8,11 @@ use std::string::String as good;
 use ccrate::crate_learn::front_of_house as learn;
 mod ccrate;
 
+mod derive_ln;
+
 mod hashmap_ln;
 mod match_ln;
 mod result_ln;
-
 mod trait_ln;
 
 mod string_str_ln;
@@ -26,10 +26,12 @@ mod flow_control_ln;
 use flow_control_ln::for_range_learn;
 use flow_control_ln::if_let_learn;
 use flow_control_ln::loop_learn;
+use serde_json::map;
+mod shell_ln;
 
-mod library_ln;
-mod generic_ln;
 mod box_ln;
+mod generic_ln;
+mod library_ln;
 // use std::fmt::Debug;
 // use std::string::String;
 
@@ -55,10 +57,17 @@ mod mut_ln;
 
 mod impl_ln;
 
-mod io_ln;
-mod arc_ln;
 mod anonymous_ln;
+mod arc_ln;
+mod io_ln;
 mod std_ln;
+
+mod tokio_ln;
+
+mod cell_ln;
+mod channel_ln;
+mod librarys;
+
 trait HelloWorld {
     fn hello_world();
 }
@@ -67,8 +76,13 @@ trait HelloWorld {
 struct FrenchToast;
 
 #[derive(HelloWorld)]
-#[HelloWorldName = "the best Pancakes"]
+#[name = "the best Pancakes"]
 struct Waffles;
+
+#[test]
+fn test_derive() {
+    Waffles::hello_world();
+}
 
 // mod macros_ln;
 fn main() {
@@ -131,4 +145,8 @@ fn main() {
     thread_ln::start();
 
     mut_ln::start_mut()
+}
+#[test]
+fn t_derive() {
+    Waffles::hello_world();
 }

@@ -1,3 +1,5 @@
+
+
 extern crate proc_macro;
 extern crate syn;
 #[macro_use]
@@ -6,8 +8,8 @@ extern crate quote;
 use proc_macro::TokenStream;
 use quote::ToTokens;
 
-#[proc_macro_derive(HelloWorld, attributes(HelloWorldName))]
-pub fn hello_world(input: TokenStream) -> TokenStream {
+#[proc_macro_derive(HelloWorld, attributes(name))]
+pub fn hello_worls(input: TokenStream) -> TokenStream {
     // Construct a string representation of the type definition
     let s = input.to_string();
 
@@ -24,9 +26,6 @@ pub fn hello_world(input: TokenStream) -> TokenStream {
 fn impl_hello_world(ast: &syn::MacroInput) -> quote::Tokens {
     // let attrs = &ast.attrs;
     let name = &ast.ident;
-
-    let result = ast.ident.to_string();
-    println!("-----------{:?}", result);
     quote! {
         impl HelloWorld for #name {
             fn hello_world() {

@@ -1,6 +1,3 @@
-#[macro_use]
-extern crate hello_world_derive;
-
 use std::string::String as good;
 
 // use json::JsonValue::String;
@@ -72,18 +69,6 @@ trait HelloWorld {
     fn hello_world();
 }
 
-#[derive(HelloWorld)]
-struct FrenchToast;
-
-#[derive(HelloWorld)]
-#[name = "the best Pancakes"]
-struct Waffles;
-
-#[test]
-fn test_derive() {
-    Waffles::hello_world();
-}
-
 // mod macros_ln;
 fn main() {
     tuple_ln::sort_tuple_ln(&mut vec![(1, 2), (3, 4), (5, 6)]);
@@ -102,9 +87,6 @@ fn main() {
     struct_ln::user::fsss::bbbbb();
     struct_ln::user::use_user();
     // macros_ln::macros_learn::span();
-
-    FrenchToast::hello_world();
-    Waffles::hello_world();
 
     let ssss: good = "11111111".chars().rev().collect();
     println!("{}", ssss);
@@ -145,8 +127,4 @@ fn main() {
     thread_ln::start();
 
     mut_ln::start_mut()
-}
-#[test]
-fn t_derive() {
-    Waffles::hello_world();
 }

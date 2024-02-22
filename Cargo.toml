@@ -12,8 +12,6 @@ json = "0.12.4"
 serde_json = "1.0.90"
 
 serde = { version = "1.0", features = ["derive"] }
-hello-world-derive = { path = "hello-world-derive" }
-hashmap-derive = {path = "hashmap-derive"}
 actix = "0.12"
 tokio = { version = "1.22.0", features = ["full"] }
 

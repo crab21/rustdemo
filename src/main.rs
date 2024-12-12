@@ -1,3 +1,4 @@
+#![allow(warnings)]
 use std::string::String as good;
 
 // use json::JsonValue::String;
@@ -34,6 +35,7 @@ mod library_ln;
 
 mod map_ln;
 
+mod lifetime;
 mod lifetime_ln;
 
 mod reference_ln;
@@ -64,12 +66,15 @@ mod tokio_ln;
 mod cell_ln;
 mod channel_ln;
 mod librarys;
+mod rc_ln;
 
+mod closure_ln;
+mod async_ln;
 trait HelloWorld {
     fn hello_world();
 }
 
-// mod macros_ln;
+mod macros_ln;
 fn main() {
     tuple_ln::sort_tuple_ln(&mut vec![(1, 2), (3, 4), (5, 6)]);
     match_ln::match_init_ln();

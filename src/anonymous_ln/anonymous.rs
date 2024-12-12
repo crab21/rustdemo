@@ -1,3 +1,5 @@
+use std::borrow::Borrow;
+
 #[derive(Debug, PartialEq, Copy, Clone)]
 enum ShirtColor {
     Red,
@@ -50,4 +52,41 @@ fn Inventory_Test(){
         "The user with preference {:?} gets {:?}",
         user_pref2, giveaway2
     );
+}
+
+
+fn anoymousFunction(){
+    let example_closure = |x| x;
+
+    // let s = example_closure(String::from("hello"));
+    let n = example_closure(5);
+
+}
+
+fn anoymous_only_borrows() {
+    let list = vec![1, 2, 3];
+    println!("Before defining closure: {list:?}");
+
+    let only_borrows = || println!("From closure: {list:?}");
+
+    println!("Before calling closure: {list:?}");
+    only_borrows();
+    println!("After calling closure: {list:?}");
+}
+
+fn anoymous_mut_borrows() {
+    let mut  list = vec![1, 2, 3];
+    println!("Before defining closure: {list:?}");
+
+    let mut  mut_borrows = || list.push(4);
+
+    mut_borrows();
+    println!("After calling closure: {list:?}");
+}
+
+
+#[test]
+fn test_anoymousFunction(){
+    // anoymousFunction();
+    anoymous_only_borrows();
 }

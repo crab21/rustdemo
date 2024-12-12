@@ -40,3 +40,14 @@ fn read_to_string_ln() {
 fn read_to_string_ln_test() {
     read_to_string_ln()
 }
+
+#[derive(Clone, Debug)]
+struct Message {
+    msg: String,
+}
+#[test]
+fn test_copy() {
+    let v: i32 = 42;
+    let v1 = v;
+    println!("v is {}", v); //compiles fine, no error!
+}
